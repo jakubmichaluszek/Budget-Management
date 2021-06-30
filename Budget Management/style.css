@@ -1,0 +1,158 @@
+body{
+    background-color: gainsboro;
+}
+body * {
+    box-sizing: border-box;
+    hyphens: auto;
+
+}
+.container{
+    background-color: #fff;
+    width: 35vw;
+    height: auto;
+    margin: 0 auto;
+    border: 0.4px solid gainsboro;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    border-radius: 2%;
+    box-sizing: border-box;
+}
+.container p {
+    font-size: 30px;
+    color: black;
+}
+.data-form{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.form-user{
+    margin: auto;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.usersNameLabel{
+    width: 25%;
+}
+.usersName{
+        width: 60%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        -webkit-transition: 0.3s ease; 
+        transition: 0.3s ease;
+        outline: none;
+    
+}
+.usersName:focus {
+    border: 2px solid #555;
+}
+
+.usersBudgetLabel{
+    width: 25%;
+}
+.usersBudget{
+ 
+        width: 60%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border-bottom: 1px solid grey;
+        -webkit-transition: 0.3s ease;
+        transition: 0.3s ease;
+}
+.usersBudget:focus {
+    border: 2px solid #555;
+  }
+ 
+
+  .form-categories{
+      
+      margin: auto;
+      margin-top: 35px;
+      width: 60%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: left;
+      border-right: 0.7px solid gray;
+      border-bottom: 0.7px solid gray;
+  }
+  .form-categories input{
+      width: 10%;
+      margin-left: 0;
+      
+  }
+  .form-categories label{
+      width: 88%;
+      display: flex;
+      flex-wrap: wrap;
+      hyphens: auto;
+      white-space: normal;
+      word-break: break-all
+  }
+  .add-category-container{
+      width: 38%;
+      margin-top: 35px;
+  }
+  .add-category{
+      width: 60%;
+  }
+  .add-category-button{
+      width: 38%;
+  }
+
+.form-buttons{
+    margin-top: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .form-buttons div {
+      width: 20%;
+      height: 25px;
+      border: 1px solid grey;
+      font-size: 1vw;
+      text-align: center;
+
+  }
+.data-took-from-user{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.data-took-from-user-active{
+    border: 0.7px solid grey;
+}
+.userNameDiv{
+    width: 45%;
+    text-align: center;
+}
+.userBudgetDiv{
+    width: 45%;
+    text-align: center;
+}
+.categoriesDiv{
+    margin-top: 30px;
+    width: 90%;
+    text-align: center;
+}
+.categoriesDiv div{
+    margin: 10px 0;
+}
+.category_chart_container{
+    width: 100%;
+    background-color: grey;
+}
+
+.hidden{
+    display: none;
+    width: 0;
+    height: 0;
+    
+}

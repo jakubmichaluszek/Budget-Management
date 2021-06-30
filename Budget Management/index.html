@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta property="og:type" content="website">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+<div class="container">
+
+<form class="data-form">
+    <!-- User's name and budget --> 
+    <div class="form-user">
+        <label for="usersName" class="usersNameLabel">Imie:</label>
+            <input type="text" class="usersName" name="fname">
+
+        <label for="usersBudget" class="usersBudgetLabel">Budżet miesięczny:</label>
+            <input type="number" class="usersBudget" name="lname">
+    </div>
+
+         <!-- Example categories that user will be able to use on the app --> 
+    
+         
+    <div class="form-categories">
+
+        <input type="checkbox"  name="categories" value="Paliwo">
+            <label for="Paliwo">Paliwo</label>
+
+        <input type="checkbox"  name="categories" value="Jedzenie">
+            <label for="Jedzenie">Jedzenie</label>
+
+        <input type="checkbox"  name="categories" value="Ubrania">
+            <label for="Ubrania">Ubrania</label>
+
+        <input type="checkbox"  name="categories" value="Rozrywka">
+            <label for="Rozrywka">Rozrywka</label>
+
+        <input type="checkbox"  name="categories" value="Rachunki">
+            <label for="Rachunki">Rachunki</label>
+    </div>
+
+     <!-- User can add personal cattegories -->
+     <div class="add-category-container">
+    <input type="text" class="add-category"> 
+        <button type="button" class="add-category-button">Dodaj Kategorię </button>
+    </div> 
+    <!-- submit or reset form's data-->
+    <div class="form-buttons">
+        <div class="submitButton" type="button"> Dalej</div>
+        <div class="resetButton" type="button"> Reset </div>
+    </div> 
+
+    <div class="data-took-from-user">
+        
+    </div>
+ 
+</form>
+
+</div>
+
+
+
+
+<script src="costs.js"></script>
+</body>
+</html>
